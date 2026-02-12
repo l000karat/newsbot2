@@ -16,7 +16,7 @@ from aiogram.enums import ChatMemberStatus
 # 🔐 НАСТРОЙКИ
 # =========================
 
-TOKEN = os.getenv("8528151092:AAEfpe4jOC1fEotFvx0m1Y6I3wJ8oIQhGR4")  # токен берётся из переменных окружения
+TOKEN = os.getenv("BOT_TOKEN")  # токен берётся из переменных окружения
 CHANNEL_USERNAME = "@vlgIive"   # username канала
 ADMIN_ID = 7612070974            # твой Telegram ID
 
@@ -116,3 +116,4 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
